@@ -38,3 +38,21 @@ collections:
           - label: "Twitter account"
             name: "twitter_account"
             widget: "string"
+  - name: "pages"
+    label: "Sidkonfiguration"
+    delete: true
+    editor:
+      preview: false
+    files:
+      - name: "news"
+        label: "Senaste nytt"
+        file: "site/content/news.yml"
+        fields:
+          - label: Nyhet
+            name: items
+            widget: list
+            fields:
+              - {label: date, name: date, widget: date}
+              - {label: Rubrik, name: text, widget: string}
+              - {label: "Länktext", name: text, widget: string}
+              - {label: "Länk", name: url, widget: string}
