@@ -54,5 +54,5 @@ collections:
             fields:
               - {label: date, name: date, widget: date}
               - {label: Rubrik, name: text, widget: string}
-              - {label: "Länktext", name: text, widget: string}
+              - {label: "Länktext", name: urltext, widget: string}
               - {label: "Länk", name: url, widget: string}
