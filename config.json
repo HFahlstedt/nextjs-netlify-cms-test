@@ -2,7 +2,11 @@
   "base_url": "https://hf-nextjs-nflycms.netlify.app/",
   "site_title": "Nextjs Netlify CMS test",
   "site_description": "Test, test, test",
-  "site_keywords": ["NextJS", "NetlifyCMS"],
+  "site_keywords": [
+    "NextJS",
+    "NetlifyCMS",
+    "test"
+  ],
   "posts_per_page": 5,
   "twitter_account": "@h_fahlstedt",
   "github_account": "HFahlstedt"
